@@ -1,0 +1,377 @@
+#div-main{
+   display: flex;
+   flex-direction: row;
+}
+
+#div-ghost{
+    width:435px;
+    height: 1000px;
+
+}
+ /* Div ghost serve para reajustar outros elementos já que o div menu lateral direito está
+ /* com o position:fixed, o que faz com que ele haja diferente de outros elementos!
+
+
+/* DIV MENU LATERAL DIREITO */
+#div-menu-lateral-direito{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width:435px;
+    height: 1000px;
+
+    position: fixed;
+    border-right: solid 0.01px rgba(128, 128, 128, 0.3);
+    
+}
+
+.item-div-menu-direito{
+    margin-top: 40px;
+    margin-right: 10px;
+
+    width:200px;
+
+    display: flex;
+    gap: 10px;
+
+}
+
+#item-um-menu-direito{
+    margin-top: 30px;
+}
+
+#item-img-div-menu-direito{
+    width: 200px;
+    margin-right:10px;
+}
+
+.a-menu-direito{
+    font-size: 20px;
+}
+
+
+#logo-menu-direito{
+    height: 30px;
+    width:30px;
+}
+
+.img-menu-direito{
+    height: 25px;
+    width:25px;
+}
+#div-a-twettar{
+  cursor: pointer;
+  
+  margin-right: 20px;
+  margin-top: 15px;
+
+  color:white;
+
+  padding:10px;
+  height:30px;
+  width:180px;
+
+  border-radius:60px;
+  background-color: rgb(29,161,242);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#a-tweetar{
+    border: none;
+    font-size:25px;
+}
+
+/* Menu PROFILE */
+
+#div-profile-menu{
+    display: flex;
+    flex-direction:row;
+
+    margin-top: 20px;
+    margin-right: 60px;
+
+    gap:5px;
+
+}
+
+#div-img-profile-menu{
+    height:70px;
+}
+
+#img-profile{
+    width:40px;
+    height:40px;
+
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+#user-profile-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.text-profile-menu{
+    margin:0px;
+    font-size: 14px;
+}
+
+#user-menu{
+    font-weight: bold;
+}
+
+#user-arroba-menu{
+    color:rgb(37, 36, 36);
+}
+
+/* DIV CENTRAL */
+
+#div-central{
+    height:1000px;
+    width:auto;
+}
+
+#div-superior-central{
+    height:120px;
+    width:620px;
+    
+    margin: 2px;
+
+    border-bottom: solid 0.01px rgba(128, 128, 128, 0.3);
+
+}
+
+#h1-div-superior{
+    margin-top:5px;
+    margin-left:5px;
+    width:100%;
+
+}
+
+#h1-superior{
+    font-size:25px;
+    margin:0px;
+}
+
+#text-div-superior{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 15px;
+    margin-left: 145px;
+
+    gap: 120px;
+}
+
+.p-superior{
+    font-size: 20px;
+    color: rgb(87, 84, 84);
+    font-weight: bold;
+}
+
+.p-superior:hover{
+    border-bottom: solid 3px rgb(29,161,242);
+    color: black;
+    padding-bottom: 10px;
+}
+/*DIV CENTEAL - TWEETAR*/
+
+#tweetar-div-central{
+    height:95px;
+    width:99%;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 2px;
+    margin-left: 10px;
+}
+
+#div-img-tweetar-central{
+    height:100%;
+    width:40px;
+
+    
+}
+
+#img-tweetar-central{
+    margin-top: 5px;
+
+    height:40px;
+    width:40px;
+
+    border-radius: 100px;
+    object-fit: cover;
+}
+#div-input-central{
+    width:550px;
+    height: auto;
+}
+
+#input-div-central-tweetar{
+    height:20px;
+    width:100%;
+
+    font-size: 20px;
+    padding: 10px;
+
+    border:none;
+
+    background-color: white;
+}
+
+#div-button-tweet-central{
+    margin-top: 15px;
+    margin-left: 80%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#button-tweet-central{
+    height:35px;
+    width:100px;
+
+    text-align: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    background-color: rgb(29,161,242);
+    border-radius: 100px;
+    color:white;
+}
+
+/* DIV POSTAGENS */
+
+
+
+.div-tweets{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.div-counteiner{
+    display: flex;
+    margin-bottom: 65px;
+
+    position: relative;
+
+    margin-left: 10px;
+}
+
+.div-user-dates{
+    margin-top: 10px;
+
+    width:100%;
+    height:23px;
+
+    display:flex;
+    flex-direction: row;
+}
+
+.div-tweet-text-post{
+    display: flex;
+    flex-direction:column;
+
+    width:100%;
+    margin-bottom: 4px;
+
+}
+
+.img-user-tweet{
+    width:40px;
+    height:40px;
+
+    border-radius: 100px;
+    object-fit: cover;
+
+    margin-top: 9px;
+}
+
+.div-user-text-tweet{
+    display: flex;
+    flex-direction: row;
+
+    gap: 15px;
+}
+
+.div-img-tweet{
+    height:100%;
+    width:auto;
+
+    margin:0px;
+
+    padding: 2px;
+}
+
+.p-user-tweet{
+    margin:0px;
+    font-size: 15px;
+    margin-top: 3px;
+    color:rgb(88, 87, 87);
+}
+
+#p-username-tweet{
+    margin-left: 10px;
+    font-weight: bolder;
+    color:black;
+}
+
+
+.div-tweet-post{
+    height:auto;
+    width:570px;
+    margin-left: 10px;
+    
+}
+
+.p-tweet-post{
+    margin-top: 3px;
+    
+    font-size: 16px;
+    width: 573px;
+
+    text-align: left;
+}
+/*   DIV INTO TWEET POST   */
+.div-info-tweet-post{
+    display:flex;
+    flex-direction: row;
+
+    gap: 45px;
+
+    justify-content: baseline;
+    margin-left: 10px;
+}
+
+.div-info-post{
+    display: flex;
+    flex-direction:row;
+
+    justify-content: baseline;
+    gap: 10px;
+}
+
+.img-info-post{
+    width: 15px;
+    height:15px;
+
+    margin-top: 1px;
+}
+
+.p-info-post{
+    font-size: 15px;
+    margin: 0px;
+    margin-top:0px;
+
+    color: rgb(67, 63, 63);
+}
